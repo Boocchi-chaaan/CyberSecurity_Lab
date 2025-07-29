@@ -1,1 +1,31 @@
+[x] 🔧 Hardware & Assembly - Assemble Raspberry Pi 4 with all required peripherals
+[x] 🔧 Hardware & Assembly - Set up portable power bank and OTG hub
+[x] 🔧 Hardware & Assembly - Connect HDMI display for local access
+[x] 🔧 Hardware & Assembly - Install heat sinks or cooling for stability (optional)
+[x] 💽 OS & Software Setup - Flash Kali Linux to microSD card
+[x] 💽 OS & Software Setup - Configure SSH, VNC, or direct desktop access
+[x] 💽 OS & Software Setup - Install and configure: Nmap
+[x] 💽 OS & Software Setup - Install and configure: Wireshark
+[x] 💽 OS & Software Setup - Install and configure: Aircrack-ng, Reaver, Wifite
+[ ] 💽 OS & Software Setup - Install and configure: Metasploit, Burp Suite
+[ ] 💽 OS & Software Setup - Install and configure: Tcpdump, Bettercap
+[ ] 💽 OS & Software Setup - Install and configure: Snort
+[ ] 💽 OS & Software Setup - Install and configure: Kismet
+[ ] 💽 OS & Software Setup - Install and configure: Hashcat
+[ ] 💽 OS & Software Setup - Set up Pi-hole with VPN
+[ ] 💽 OS & Software Setup - Configure Raspberry Pi as Tor router
+[ ] 🛡️ Security Testing Features - Test packet sniffing on local network
+[ ] 🛡️ Security Testing Features - Set up USB Rubber Ducky / Teensy payloads
+[ ] 🛡️ Security Testing Features - Conduct test scans and attacks in a lab environment
+[ ] 🌐 Network & Privacy - Configure VPN tunneling
+[ ] 🌐 Network & Privacy - Set up Tor for anonymous routing
+[ ] 🌐 Network & Privacy - Block ads and trackers using Pi-hole
+[ ] 📚 Educational Content - Create beginner tutorials for each tool
+[ ] 📚 Educational Content - Develop lesson plans or workshop material
+[ ] 📚 Educational Content - Add safety guidelines and legal disclaimers
+[ ] 📦 Documentation & Publishing - Finalize and update README.md
+[ ] 📦 Documentation & Publishing - Add TODO.md
+[ ] 📦 Documentation & Publishing - Create LICENSE file (MIT, GPL, etc.)
+[ ] 📦 Documentation & Publishing - Publish repository to GitHub
+[ ] 📦 Documentation & Publishing - Share build instructions and images
 
