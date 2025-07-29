@@ -2,26 +2,23 @@
 
 TODO_FILE="todo.txt"
 
-# Load tasks from file or create if not exists
+# Create file if not exists
 if [ ! -f "$TODO_FILE" ]; then
   touch "$TODO_FILE"
 fi
 
+# Display all tasks
 function show_tasks() {
-  echo "TODO List:"
+  echo -e "\n✅ TODO List"
   if [ ! -s "$TODO_FILE" ]; then
-    echo "  No tasks yet."
+    echo "  No tasks yet!"
   else
-    nl -w3 -s". " "$TODO_FILE" | while read -r line; do
-      num=$(echo "$line" | cut -d'.' -f1)
-      rest=$(echo "$line" | cut -d'.' -f2-)
-      # rest is like "  [ ] Task" or "  [x] Task"
-      echo "$num.$rest"
-    done
+    nl -w2 -s'. ' "$TODO_FILE"
   fi
   echo
 }
 
+# Add a new task
 function add_task() {
   read -rp "Enter new task: " task
   if [ -n "$task" ]; then
@@ -32,6 +29,7 @@ function add_task() {
   fi
 }
 
+# Toggle task done/undone
 function toggle_task() {
   read -rp "Enter task number to toggle: " num
   if ! [[ "$num" =~ ^[0-9]+$ ]]; then
@@ -45,24 +43,20 @@ function toggle_task() {
     return
   fi
 
-  # Extract the line to toggle
   line=$(sed "${num}q;d" "$TODO_FILE")
-  if [[ "$line" =~ ^\[.\] ]]; then
-    if [[ "$line" =~ ^\[ \] ]]; then
-      # Mark done
-      new_line="[x]${line:3}"
-    else
-      # Mark undone
-      new_line="[ ]${line:3}"
-    fi
-    # Replace line in file
-    sed -i "${num}s/.*/$new_line/" "$TODO_FILE"
-    echo "Toggled task $num."
+
+  if echo "$line" | grep -q "^\[ \]"; then
+    new_line="[x]${line:3}"
   else
-    echo "Invalid task format in file."
+    new_line="[ ]${line:3}"
   fi
+
+  # Safely replace the line
+  sed -i "${num}s/.*/$new_line/" "$TODO_FILE"
+  echo "Toggled task $num."
 }
 
+# Menu loop
 while true; do
   show_tasks
   echo "Options:"
@@ -73,7 +67,7 @@ while true; do
   case "$choice" in
     1) add_task ;;
     2) toggle_task ;;
-    3) echo "Bye!"; exit 0 ;;
+    3) echo "Goodbye!"; exit 0 ;;
     *) echo "Invalid option." ;;
   esac
 done
