@@ -8,10 +8,10 @@
 [x] 💽 OS & Software Setup - Install and configure: Wireshark
 [x] 💽 OS & Software Setup - Install and configure: Aircrack-ng, Reaver, Wifite
 [ ] 💽 OS & Software Setup - Install and configure: Metasploit, Burp Suite
-[ ] 💽 OS & Software Setup - Install and configure: Tcpdump, Bettercap
-[ ] 💽 OS & Software Setup - Install and configure: Snort
-[ ] 💽 OS & Software Setup - Install and configure: Kismet
-[ ] 💽 OS & Software Setup - Install and configure: Hashcat
+[x] 💽 OS & Software Setup - Install and configure: Tcpdump, Bettercap
+[x] 💽 OS & Software Setup - Install and configure: Snort
+[x] 💽 OS & Software Setup - Install and configure: Kismet
+[x] 💽 OS & Software Setup - Install and configure: Hashcat
 [ ] 💽 OS & Software Setup - Set up Pi-hole with VPN
 [ ] 💽 OS & Software Setup - Configure Raspberry Pi as Tor router
 [ ] 🛡️ Security Testing Features - Test packet sniffing on local network
@@ -28,4 +28,4 @@
 [ ] 📦 Documentation & Publishing - Create LICENSE file (MIT, GPL, etc.)
 [ ] 📦 Documentation & Publishing - Publish repository to GitHub
 [ ] 📦 Documentation & Publishing - Share build instructions and images
-
+[ ] platform-tools
