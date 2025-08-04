@@ -28,4 +28,4 @@
 [ ] 📦 Documentation & Publishing - Create LICENSE file (MIT, GPL, etc.)
 [ ] 📦 Documentation & Publishing - Publish repository to GitHub
 [ ] 📦 Documentation & Publishing - Share build instructions and images
-[ ] platform-tools
+[x] platform-tools
