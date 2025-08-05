@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG  -Wl,--enable-new-dtags -rdynamic -Wl,--dependency-file=CMakeFiles/mjpg_streamer.dir/link.d CMakeFiles/mjpg_streamer.dir/mjpg_streamer.c.o CMakeFiles/mjpg_streamer.dir/utils.c.o -o mjpg_streamer  -Wl,-rpath,:::::::::::::::::::::::::::: -lpthread -ldl
