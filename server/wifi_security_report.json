@@ -1,0 +1,259 @@
+{
+  "scanned_at": "2025-08-08T18:35:56.977585Z",
+  "interface": "wlan1",
+  "duration_s": 5,
+  "results": [
+    {
+      "bssid": "44:65:7F:58:99:15",
+      "ssid": "Ucom1224,",
+      "channel": "1",
+      "privacy": "WPA2 WPA",
+      "cipher": "CCMP",
+      "auth": "PSK",
+      "power_dbm": "-56",
+      "beacons": "9",
+      "issues": [],
+      "recommendations": [
+        "No obvious config issues detected — further testing only with explicit permission."
+      ]
+    },
+    {
+      "bssid": "A0:8C:F8:9F:DD:88",
+      "ssid": ",",
+      "channel": "8",
+      "privacy": "WPA",
+      "cipher": "",
+      "auth": "",
+      "power_dbm": "-61",
+      "beacons": "0",
+      "issues": [
+        "WPA (legacy) — consider WPA2/WPA3"
+      ],
+      "recommendations": [
+        "No obvious config issues detected — further testing only with explicit permission."
+      ]
+    },
+    {
+      "bssid": "2C:55:D3:75:4B:64",
+      "ssid": ",",
+      "channel": "8",
+      "privacy": "",
+      "cipher": "",
+      "auth": "",
+      "power_dbm": "-1",
+      "beacons": "0",
+      "issues": [
+        "OPEN (no encryption)"
+      ],
+      "recommendations": [
+        "Enable WPA2/3 with strong password or configure guest network with isolation."
+      ]
+    },
+    {
+      "bssid": "30:B5:C2:39:93:66",
+      "ssid": "TP-LINK_9366,",
+      "channel": "7",
+      "privacy": "WPA2 WPA",
+      "cipher": "CCMP",
+      "auth": "PSK",
+      "power_dbm": "-84",
+      "beacons": "2",
+      "issues": [
+        "Weak RSSI (-84 dBm)"
+      ],
+      "recommendations": [
+        "Improve placement / increase AP power or add extenders."
+      ]
+    },
+    {
+      "bssid": "7A:B0:24:D9:F2:E5",
+      "ssid": ",",
+      "channel": "3",
+      "privacy": "WPA2",
+      "cipher": "CCMP",
+      "auth": "PSK",
+      "power_dbm": "-77",
+      "beacons": "2",
+      "issues": [],
+      "recommendations": [
+        "No obvious config issues detected — further testing only with explicit permission."
+      ]
+    },
+    {
+      "bssid": "20:9A:E9:33:21:EF",
+      "ssid": "Rostelecom46048,",
+      "channel": "4",
+      "privacy": "WPA2",
+      "cipher": "CCMP",
+      "auth": "PSK",
+      "power_dbm": "-70",
+      "beacons": "5",
+      "issues": [],
+      "recommendations": [
+        "No obvious config issues detected — further testing only with explicit permission."
+      ]
+    },
+    {
+      "bssid": "22:9A:E9:33:21:EF",
+      "ssid": ",",
+      "channel": "4",
+      "privacy": "WPA3 WPA2",
+      "cipher": "CCMP",
+      "auth": "SAE PSK",
+      "power_dbm": "-70",
+      "beacons": "7",
+      "issues": [],
+      "recommendations": [
+        "No obvious config issues detected — further testing only with explicit permission."
+      ]
+    },
+    {
+      "bssid": "1C:AE:CB:2E:1D:44",
+      "ssid": "Delta_Sofi,",
+      "channel": "4",
+      "privacy": "WPA2 WPA",
+      "cipher": "CCMP TKIP",
+      "auth": "PSK",
+      "power_dbm": "-72",
+      "beacons": "9",
+      "issues": [],
+      "recommendations": [
+        "No obvious config issues detected — further testing only with explicit permission."
+      ]
+    },
+    {
+      "bssid": "0C:C6:CC:44:B4:A8",
+      "ssid": "Delta_3/54,",
+      "channel": "2",
+      "privacy": "WPA2",
+      "cipher": "CCMP TKIP",
+      "auth": "PSK",
+      "power_dbm": "-82",
+      "beacons": "0",
+      "issues": [
+        "Weak RSSI (-82 dBm)"
+      ],
+      "recommendations": [
+        "Improve placement / increase AP power or add extenders."
+      ]
+    },
+    {
+      "bssid": "F4:4C:7F:D1:E5:74",
+      "ssid": "Delta_Alvard,",
+      "channel": "2",
+      "privacy": "WPA2",
+      "cipher": "CCMP TKIP",
+      "auth": "PSK",
+      "power_dbm": "-82",
+      "beacons": "2",
+      "issues": [
+        "Weak RSSI (-82 dBm)"
+      ],
+      "recommendations": [
+        "Improve placement / increase AP power or add extenders."
+      ]
+    },
+    {
+      "bssid": "D4:45:E8:BC:E5:83",
+      "ssid": "Team_2.4G_e582,",
+      "channel": "2",
+      "privacy": "WPA2",
+      "cipher": "CCMP",
+      "auth": "PSK",
+      "power_dbm": "-78",
+      "beacons": "1",
+      "issues": [],
+      "recommendations": [
+        "No obvious config issues detected — further testing only with explicit permission."
+      ]
+    },
+    {
+      "bssid": "7A:B0:24:D9:F2:E4",
+      "ssid": "Ucom7857_2.4G,",
+      "channel": "3",
+      "privacy": "WPA2",
+      "cipher": "CCMP",
+      "auth": "PSK",
+      "power_dbm": "-80",
+      "beacons": "2",
+      "issues": [],
+      "recommendations": [
+        "No obvious config issues detected — further testing only with explicit permission."
+      ]
+    },
+    {
+      "bssid": "44:FF:BA:1B:65:0C",
+      "ssid": "Delta_HovAni,",
+      "channel": "6",
+      "privacy": "WPA2",
+      "cipher": "TKIP",
+      "auth": "PSK",
+      "power_dbm": "-80",
+      "beacons": "1",
+      "issues": [],
+      "recommendations": [
+        "No obvious config issues detected — further testing only with explicit permission."
+      ]
+    },
+    {
+      "bssid": "E8:68:19:AD:85:B0",
+      "ssid": ",",
+      "channel": "3",
+      "privacy": "",
+      "cipher": "",
+      "auth": "",
+      "power_dbm": "-1",
+      "beacons": "0",
+      "issues": [
+        "OPEN (no encryption)"
+      ],
+      "recommendations": [
+        "Enable WPA2/3 with strong password or configure guest network with isolation."
+      ]
+    },
+    {
+      "bssid": "D4:45:E8:B9:4D:9D",
+      "ssid": "Team_2.4G_4d9c,",
+      "channel": "5",
+      "privacy": "WPA2",
+      "cipher": "CCMP",
+      "auth": "PSK",
+      "power_dbm": "-72",
+      "beacons": "5",
+      "issues": [],
+      "recommendations": [
+        "No obvious config issues detected — further testing only with explicit permission."
+      ]
+    },
+    {
+      "bssid": "A8:F7:E0:1D:21:0D",
+      "ssid": ",",
+      "channel": "6",
+      "privacy": "",
+      "cipher": "",
+      "auth": "",
+      "power_dbm": "-1",
+      "beacons": "0",
+      "issues": [
+        "OPEN (no encryption)"
+      ],
+      "recommendations": [
+        "Enable WPA2/3 with strong password or configure guest network with isolation."
+      ]
+    },
+    {
+      "bssid": "88:86:03:3B:48:E8",
+      "ssid": "Delta_Kgg7,",
+      "channel": "6",
+      "privacy": "WPA2 WPA",
+      "cipher": "CCMP TKIP",
+      "auth": "PSK",
+      "power_dbm": "-78",
+      "beacons": "1",
+      "issues": [],
+      "recommendations": [
+        "No obvious config issues detected — further testing only with explicit permission."
+      ]
+    }
+  ]
+}
