@@ -26,7 +26,6 @@
 [ ] 📦 Documentation & Publishing - Finalize and update README.md
 [ ] 📦 Documentation & Publishing - Add TODO.md
 [ ] 📦 Documentation & Publishing - Create LICENSE file (MIT, GPL, etc.)
-[x] 📦 Documentation & Publishing - Publish repository to GitHub
+[ ] 📦 Documentation & Publishing - Publish repository to GitHub
 [ ] 📦 Documentation & Publishing - Share build instructions and images
 [x] platform-tools
-[ ] Private messenger
