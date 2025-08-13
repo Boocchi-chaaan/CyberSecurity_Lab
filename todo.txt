@@ -12,7 +12,7 @@
 [x] 💽 OS & Software Setup - Install and configure: Snort
 [x] 💽 OS & Software Setup - Install and configure: Kismet
 [x] 💽 OS & Software Setup - Install and configure: Hashcat
-[ ] 💽 OS & Software Setup - Set up Pi-hole with VPN
+[x] 💽 OS & Software Setup - Set up Pi-hole with VPN
 [ ] 💽 OS & Software Setup - Configure Raspberry Pi as Tor router
 [ ] 🛡️ Security Testing Features - Test packet sniffing on local network
 [ ] 🛡️ Security Testing Features - Set up USB Rubber Ducky / Teensy payloads
