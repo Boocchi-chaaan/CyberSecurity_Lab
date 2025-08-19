@@ -3,17 +3,19 @@
 clear
 
 echo "What do you want to do?"
-
+iwconfig
+echo -e "Sellect Interface"
+read int
 select action in "Start Monitor Mode" "Stop Monitor Mode" "Exit"; do
-    case $action in
+     case $action in
         "Start Monitor Mode")
             airmon-ng check kill
-	    airmon-ng start wlan0
+	    airmon-ng start $int
             echo "wlan0 in monitor mode"
             break
             ;;
         "Stop Monitor Mode")
-	    airmon-ng stop wlan0mon
+	    airmon-ng stop $int
 	    systemctl start wpa_supplicant
 	    systemctl start NetworkManager
             echo "Monitor Mode Stoped"
