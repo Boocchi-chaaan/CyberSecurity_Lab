@@ -29,3 +29,68 @@
 [ ] 📦 Documentation & Publishing - Publish repository to GitHub
 [ ] 📦 Documentation & Publishing - Share build instructions and images
 [x] platform-tools
+[x] 💽 OS & Software Setup - Install and configure: Aircrack-ng, Reaver, Wifite
+[ ] 💽 OS & Software Setup - Install and configure: Metasploit, Burp Suite
+[x] 💽 OS & Software Setup - Install and configure: Tcpdump, Bettercap
+[x] 💽 OS & Software Setup - Install and configure: Snort
+[x] 💽 OS & Software Setup - Install and configure: Kismet
+[x] 💽 OS & Software Setup - Install and configure: Hashcat
+[x] 💽 OS & Software Setup - Set up Pi-hole with VPN
+[ ] 💽 OS & Software Setup - Configure Raspberry Pi as Tor router
+[ ] 🛡️ Security Testing Features - Test packet sniffing on local network
+[ ] 🛡️ Security Testing Features - Set up USB Rubber Ducky / Teensy payloads
+[ ] 🛡️ Security Testing Features - Conduct test scans and attacks in a lab environment
+[ ] 🌐 Network & Privacy - Configure VPN tunneling
+[ ] 🌐 Network & Privacy - Set up Tor for anonymous routing
+[ ] 🌐 Network & Privacy - Block ads and trackers using Pi-hole
+[ ] 📚 Educational Content - Create beginner tutorials for each tool
+[ ] 📚 Educational Content - Develop lesson plans or workshop material
+[ ] 📚 Educational Content - Add safety guidelines and legal disclaimers
+[ ] 📦 Documentation & Publishing - Finalize and update README.md
+[ ] 📦 Documentation & Publishing - Add TODO.md
+[ ] 📦 Documentation & Publishing - Create LICENSE file (MIT, GPL, etc.)
+[ ] 📦 Documentation & Publishing - Publish repository to GitHub
+[ ] 📦 Documentation & Publishing - Share build instructions and images
+[x] 💽 OS & Software Setup - Install and configure: Aircrack-ng, Reaver, Wifite
+[ ] 💽 OS & Software Setup - Install and configure: Metasploit, Burp Suite
+[x] 💽 OS & Software Setup - Install and configure: Tcpdump, Bettercap
+[x] 💽 OS & Software Setup - Install and configure: Snort
+[x] 💽 OS & Software Setup - Install and configure: Kismet
+[x] 💽 OS & Software Setup - Install and configure: Hashcat
+[x] 💽 OS & Software Setup - Set up Pi-hole with VPN
+[ ] 💽 OS & Software Setup - Configure Raspberry Pi as Tor router
+[ ] 🛡️ Security Testing Features - Test packet sniffing on local network
+[ ] 🛡️ Security Testing Features - Set up USB Rubber Ducky / Teensy payloads
+[ ] 🛡️ Security Testing Features - Conduct test scans and attacks in a lab environment
+[ ] 🌐 Network & Privacy - Configure VPN tunneling
+[ ] 🌐 Network & Privacy - Set up Tor for anonymous routing
+[ ] 🌐 Network & Privacy - Block ads and trackers using Pi-hole
+[ ] 📚 Educational Content - Create beginner tutorials for each tool
+[ ] 📚 Educational Content - Develop lesson plans or workshop material
+[ ] 📚 Educational Content - Add safety guidelines and legal disclaimers
+[ ] 📦 Documentation & Publishing - Finalize and update README.md
+[ ] 📦 Documentation & Publishing - Add TODO.md
+[ ] 📦 Documentation & Publishing - Create LICENSE file (MIT, GPL, etc.)
+[ ] 📦 Documentation & Publishing - Publish repository to GitHub
+[ ] 📦 Documentation & Publishing - Share build instructions and images
+[x] 💽 SSH Security - Change default SSH port from 22
+[ ] 💽 SSH Security - Disable root login over SSH
+[x] 💽 SSH Security - Set up key-based authentication
+[ ] 💽 SSH Security - Limit SSH access to specific IPs using iptables
+[x] 💽 Network Protection - Configure firewall (iptables / ufw) to block unwanted ports
+[ ] 💽 Network Protection - Install and configure Fail2ban for automatic IP blocking
+[ ] 💽 Network Protection - Implement port knocking for SSH access
+[ ] 🛡️ Intrusion Detection - Set up log monitoring for /var/log/auth.log and /var/log/syslog
+[ ] 🛡️ Intrusion Detection - Consider IDS/IPS (Snort, Suricata) for detecting attacks
+[ ] 🛡️ Intrusion Detection - Create custom Python script to detect repeated connection attempts or suspicious processes
+[ ] 🛡️ Physical Security - Detect Pi being unplugged or tampered using GPIO sensors
+[ ] 🛡️ Physical Security - Use Pi Camera to capture images when physical tampering is detected
+[ ] 🛡️ Malware & Botnet Defense - Install ClamAV for virus scanning
+[ ] 🛡️ Malware & Botnet Defense - Block outgoing suspicious traffic to prevent hijacking
+[ ] 🌐 Automation & Alerts - Set up email/SMS alerts for failed logins or suspicious activity
+[ ] 🌐 Automation & Alerts - Implement automatic IP blocking for repeated attacks
+[ ] 🌐 Automation & Alerts - Set up auto-update scripts to keep Pi patched
+[ ] 🌐 Advanced Ideas - Restrict access to Pi via VPN only
+[ ] 🌐 Advanced Ideas - Create a honeypot to log attacker behavior
+[ ] 🌐 Advanced Ideas - Use Docker or containerization for service isolation
+
