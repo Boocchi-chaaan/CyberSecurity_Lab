@@ -71,7 +71,8 @@ options=(
   "Anonymous"
   "Try FM Transmitter"
   "Try Bluetooth DOS Attack"
-  "Exit"
+  "Advanced Scanner"
+"Exit"
 )
 
 select action in "${options[@]}"; do
@@ -114,6 +115,13 @@ select action in "${options[@]}"; do
       type_writer "${YELLOW}Launching Bluetooth DOS...${RESET}" 0.02
       cd "$PWD/bt/DOS-Atack" || { printf "%s[!]%s Cannot cd to bt/DOS-Atack\n" "$RED" "$RESET"; break; }
       python3 start.py
+      printf "%s[✔]%s Done!\n" "$GREEN" "$RESET"
+      break
+      ;;
+    "Advanced Scanner")
+      type_writer "${YELLOW}Launching Advanced Scanner...${RESET}" 0.02
+      cd "$PWD/scanner/" || { printf "%s[!]%s Cannot cd to scanner\n" "$RED" "$RESET"; break; }
+      ./scanner wlan0 -n -t 10
       printf "%s[✔]%s Done!\n" "$GREEN" "$RESET"
       break
       ;;
